@@ -1,10 +1,10 @@
 abc:
-  surfpos_weight: abc_ldm_surfpos.pt
-  surfz_weight:   abc_ldm_surfz.pt
-  edgepos_weight: abc_ldm_edgepos.pt
-  edgez_weight:   abc_ldm_edgez.pt
-  surfvae_weight: abc_vae_surf.pt
-  edgevae_weight: abc_vae_edge.pt
+  surfpos_weight: ldm_surfpos.pt
+  surfz_weight:   ldm_surfz.pt
+  edgepos_weight: ldm_edgepos.pt
+  edgez_weight:   ldm_edgez.pt
+  surfvae_weight: vae_surf.pt
+  edgevae_weight: vae_edge.pt
   save_folder:    samples_abc
   batch_size:     16
   z_threshold:    0.2
